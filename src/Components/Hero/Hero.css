@@ -1,0 +1,64 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hero h1{
+    text-align: center;
+    width: 70%;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p{
+    width: 55%;
+    text-align: center;
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.hero-hire {
+    padding: 18px 50px;
+    border-radius: 50px;
+    border: 2px solid #b415ff;
+    cursor: pointer;
+}
+
+.hero-hire:hover {
+    border: 2px solid #fff;
+}
+
+.hero-resume {
+    padding: 18px 50px;
+    border-radius: 50px;
+    border: 2px solid #b415ff;
+    cursor: pointer;
+}
+
+.hero-resume:hover {
+    border-color: #fff;
+}
