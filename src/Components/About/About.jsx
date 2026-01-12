@@ -18,8 +18,10 @@ const About = () => {
                 </div>
                 <div className="about-right">
                     <div className="about-para">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, magnam ipsam eligendi deserunt voluptatibus optio? Id ad dolore necessitatibus minus!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odio numquam eveniet, molestias id provident atque dicta aliquid hic. Magni?</p>
+                        <p> I’m a B.Tech Computer Science student learning frontend development with React and JavaScript.</p>
+                        <p> I enjoy building real-world projects and strengthening my DSA fundamentals.</p>
+                        <p> Currently looking for frontend internships where I can learn, build, and contribute.</p>
+                        
                     </div>
                     <div className="about-skills">
                        <div className='about-skill'> <p className='skill'>HTML</p> <hr style={{width:"90%"}} /><p className='per' >90%</p></div>
