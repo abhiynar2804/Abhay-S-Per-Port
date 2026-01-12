@@ -48,6 +48,11 @@
     cursor: pointer;
 }
 
+.anchor-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero-hire:hover {
     border: 2px solid #fff;
 }
