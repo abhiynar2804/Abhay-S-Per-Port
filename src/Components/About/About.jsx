@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import photo from '../../assets/profile_img.webp'
+import photo from '../../assets/prof_pro.png'
 
 const About = () => {
     return (
