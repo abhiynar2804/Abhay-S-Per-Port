@@ -23,7 +23,7 @@ const About = () => {
                         <p> Currently looking for frontend internships where I can learn, build, and contribute.</p>
                         
                     </div>
-                    <div className="about-skills">
+                    {/* <div className="about-skills">
                        <div className='about-skill'> <p className='skill'>HTML</p> <hr style={{width:"90%"}} /><p className='per' >90%</p></div>
                        <div className='about-skill'> <p className='skill'>CSS</p> <hr style={{width:"85%"}} /><p className='per' >85%</p></div>
                        <div className='about-skill'> <p className='skill'>JavaScript</p> <hr style={{width:"65%"}} /><p className='per' >65%</p></div>
@@ -34,7 +34,25 @@ const About = () => {
                        <div className='about-skill'> <p className='skill'>Pythone</p> <hr style={{width:"40%"}} /><p className='per' >40%</p></div>
                        <div className='about-skill'> <p className='skill'>Java</p> <hr style={{width:"30%"}} /><p className='per' >30%</p></div>
                     </div>
-                    <div className='caption'>Hover on Skill smoothly don't move cursour or mouse</div>
+                    <div className='caption'>Hover on Skill smoothly don't move cursour or mouse</div> */}
+                    <div className="about-skills">
+                        <div className="group"><h2>Frontend</h2>
+                            <div className='about-skill'> <p className='skill'>HTML</p> </div>
+                            <div className='about-skill'> <p className='skill'>CSS</p> </div>
+                            <div className='about-skill'> <p className='skill'>JavaScript</p> </div>
+                            <div className='about-skill'> <p className='skill'>React JS</p> </div>
+                            <div className='about-skill'> <p className='skill'>Next JS</p> </div>
+                        </div>
+                        <div className="group"><h2>Backend</h2>
+                            <div className='about-skill'> <p className='skill'>Express</p> </div>
+                            <div className='about-skill'> <p className='skill'>MongoDB</p> </div>
+                            <div className='about-skill'> <p className='skill'>Node</p> </div>
+                        </div>
+                        <div className="group"><h2>Ongoing/Learning</h2>
+                            <div className='about-skill'> <p className='skill'>DSA</p> </div>
+                            <div className='about-skill'> <p className='skill'>C++</p> </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="about-achievements">

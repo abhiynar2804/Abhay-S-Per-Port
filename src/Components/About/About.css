@@ -64,17 +64,28 @@
     gap: 20px;
 }
 
-.about-skills:hover{
+/* .about-skills:hover{
     display: grid;
+} */
+
+.group h2 {
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 50.41%, #b415ff 90.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
 }
 
 .about-skill {
-    width: 100px;
+    margin: 10px;
+    width: 70px;
     padding: 10px 18px;
     border-radius: 50px;
     border: 2px solid #b415ff;
     cursor: pointer;
-    transition: 2s;
+    /* transition: 2s; */
 }
 
 .about-skill p {
@@ -97,9 +108,9 @@
 
 .about-skill:hover {
     border: 2px solid #fff;
-    width: 100%;
+    /* width: 100%; */
 
-    display: flex;
+    /* display: flex;
     gap: 50px;
     align-items: center;
 
@@ -113,7 +124,7 @@
     .per {
         font-size: large;
         font-weight: 700;
-    }
+    } */
 
 }
 

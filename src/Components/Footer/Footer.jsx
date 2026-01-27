@@ -9,15 +9,15 @@ const Footer = () => {
       <div className="footer-top">
         <div className="top-left">
             <img src={logo} alt="" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis quae ab!</p>
+            <p> </p>
         </div>
-        <div className="top-right">
+        {/* <div className="top-right">
             <div className="footer-email">
                 <img src={user_icon} alt="" />
                 <input type="email" placeholder='Enter your email' />
             </div>
             <div className="footer-subscribe">Subscribe</div>
-        </div>
+        </div> */}
       </div>
       <hr />
       <div className="footer-bottom">
