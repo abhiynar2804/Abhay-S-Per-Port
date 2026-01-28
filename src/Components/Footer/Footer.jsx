@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import logo from '../../assets/logo.png'
 import user_icon from '../../assets/user_icon.svg'
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -9,7 +10,20 @@ const Footer = () => {
       <div className="footer-top">
         <div className="top-left">
             <img src={logo} alt="" />
-            <p> </p>
+        </div>
+        <div className="footer-social-links">
+            <a href="https://github.com/abhiynar2804" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <FaGithub size={24} />
+            </a>
+            <a href="https://www.linkedin.com/in/abhay-narkhede-016376282/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <FaLinkedin size={24} />
+            </a>
+            <a href="https://x.com/abhiynar2804" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <FaTwitter size={24} />
+            </a>
+            <a href="https://www.instagram.com/_abhay_narkhede_" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                <FaInstagram size={24} />
+            </a>
         </div>
         {/* <div className="top-right">
             <div className="footer-email">
