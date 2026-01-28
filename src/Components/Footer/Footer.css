@@ -8,16 +8,41 @@
 .footer-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.top-left p{
-    font-size: 20px;
-    min-width: 400px;
+.top-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .top-left img{
     width: 200px;
     height: 90px;
+}
+
+.footer-social-links{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer-social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    color: white;
+    transition: 0.3s ease;
+}
+
+.footer-social-links a:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 15px rgba(223, 137, 8, 0.6);
 }
 
 .top-right{
