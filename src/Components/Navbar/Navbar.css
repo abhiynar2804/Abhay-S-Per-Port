@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: space-between;
     margin: 5px 30px;
+    width: 100%;
+    box-sizing: border-box;
     /* position: sticky; */
     top: 0;
     backdrop-filter: blur(45px);
@@ -54,4 +56,52 @@
 .anchor-link{
     text-decoration: none;
     color: black;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 5px 15px;
+    }
+
+    .navbar img {
+        width: 120px;
+        height: 54px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-connect {
+        padding: 12px 20px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        margin: 5px 10px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .navbar img {
+        width: 100px;
+        height: 45px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    /* prevent horizontal scroll when menu hidden */
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-connect {
+        padding: 1px 15px;
+        font-size: small;
+    }
 }
