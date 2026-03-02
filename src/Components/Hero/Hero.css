@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding: 0 20px;
 }
 
 .hero img {
@@ -16,6 +17,7 @@
     text-align: center;
     width: 70%;
     font-weight: 600;
+    font-size: 48px;
 }
 
 .hero h1 span {
@@ -39,6 +41,8 @@
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hero-hire {
@@ -46,6 +50,7 @@
     border-radius: 50px;
     border: 2px solid #b415ff;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .anchor-link {
@@ -62,8 +67,72 @@
     border-radius: 50px;
     border: 2px solid #b415ff;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .hero-resume:hover {
     border-color: #fff;
+}
+
+/* Tablet Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        width: 90%;
+        font-size: 36px;
+    }
+
+    .hero p {
+        width: 85%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .hero-action {
+        gap: 15px;
+        font-size: 18px;
+    }
+
+    .hero-hire,
+    .hero-resume {
+        padding: 14px 35px;
+        font-size: 16px;
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .hero {
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+    .hero img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .hero h1 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .hero p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .hero-action {
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 30px;
+    }
+
+    .hero-hire,
+    .hero-resume {
+        width: 100%;
+        padding: 12px 30px;
+        font-size: 14px;
+    }
 }

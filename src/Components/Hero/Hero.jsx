@@ -1,4 +1,3 @@
-import React from 'react'
 import './Hero.css'
 // import profile_img from '../../assets/my.jpg'
 import profile_img from '../../assets/my_pic.jpeg'
@@ -9,7 +8,7 @@ const Hero = () => {
     <div id='home' className='hero'>
         <img src={profile_img} alt="" />
 
-        <h1>Hi, <span>I'm Abhay Narkhede,</span> <br /> Frontend Developer | React & JavaScript</h1>
+        <h1>Hi, <span>I&apos;m Abhay Narkhede,</span> <br /> Frontend Developer | React & JavaScript</h1>
         <p>B.Tech CSE student focused on building responsive web apps and improving problem-solving through DSA. Actively seeking frontend internships.</p>
 
         <div className="hero-action">
