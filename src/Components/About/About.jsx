@@ -1,9 +1,12 @@
 import React from 'react'
 import './About.css'
 import photo from '../../assets/prof_pro.png'
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs } from 'react-icons/fa'
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaJava } from 'react-icons/fa'
 import { SiNextdotjs, SiExpress, SiMongodb, SiCplusplus } from 'react-icons/si'
 import { TbBinaryTree } from 'react-icons/tb'
+import { DiJava } from 'react-icons/di'
+import { GrJava } from 'react-icons/gr'
+import { RiJavaFill } from 'react-icons/ri'
 
 const skillGroups = [
     {
@@ -29,6 +32,7 @@ const skillGroups = [
         skills: [
             { name: 'DSA', icon: <TbBinaryTree />, color: '#b415ff' },
             { name: 'C++', icon: <SiCplusplus />, color: '#00599C' },
+            { name: 'Java', icon: <FaJava />, color: '#007396' },
         ],
     },
 ]
